@@ -30,3 +30,19 @@ body{
     justify-content: space-between;
 }
 
+.container .content .left-side{
+    width: 25%;
+    height: 100%;
+
+}
+
+.content .left-side .details{
+    margin: 14px;
+    text-align: center;
+}
+
+.container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+}
+
