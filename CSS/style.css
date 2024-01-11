@@ -10,7 +10,7 @@
 body{
     min-height: 100vh;
     width: 100%;
-    background-color: #1b1b1b;
+    background: #c8e8e9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,29 +20,33 @@ body{
     width: 80%;
     background: #fff;
     border-radius: 6px;
-    padding: 20px 60px 40px 40px;
+    padding: 20px 60px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
 }
 
-.container .content{
+.content{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container .content .left-side{
-    width: 25%;
-    height: 100%;
-
+.content .left-side{
+   width: 25%;
+   height: 100%; 
+   background: yellow;
 }
+
 
 .content .left-side .details{
-    margin: 14px;
-    text-align: center;
+   margin: 14px; 
+   text-align: center;
+   background: blue;
 }
 
-.container .content .right-side{
-    width: 75%;
-    margin-left: 75px;
-}
 
+
+.content .right-side{
+   width: 75%;
+   margin-left: 90px;
+   background: green;
+}
